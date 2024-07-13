@@ -132,12 +132,11 @@ p {
 
     .tex {
         width: auto ;
-        height: 95px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: auto;
-        margin-left: 17px;
         color: #fff;
         backdrop-filter: blur(50px);
     }
@@ -151,19 +150,6 @@ p {
         font-family: cursive;
         color: #fff;
         font-size: 30px;
-        margin-top: 12px;
-        margin-bottom: 20px;
-    }
-
-    .name1{
-        display: flex;
-        padding-top: 10px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-family: cursive;
-        color: #fff;
-        font-size: 35px;
         margin-top: 12px;
         margin-bottom: 20px;
     }
