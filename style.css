@@ -9,16 +9,17 @@
 body {
     font-family: "Poppins", sans-serif;
     width: 100%;
+    height: 100%;
     background: url(./img/background-img-8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     display: flex;
     justify-content: center;
 }
 
 .container_01 {
-    width: 1120px;
+    width: auto;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -99,10 +100,10 @@ p {
 
 
 @media(max-width: 576px) {
-    body {
+    /* body {
         display: flex;
         justify-content: center;
-    }
+    } */
 
     input{
         text-align: center;
@@ -117,6 +118,8 @@ p {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 0;
+        padding-right: 0px;
     }
 
     .gril_photo {
@@ -136,7 +139,6 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: auto;
         color: #fff;
         backdrop-filter: blur(50px);
     }
